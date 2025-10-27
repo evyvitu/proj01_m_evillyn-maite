@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Comic Neue', sans-serif;
     background: #fff;
     color: #111;
     line-height: 1.6;
@@ -69,7 +70,9 @@ footer {
 }
 
 .footer-img {
-    width: 200px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
