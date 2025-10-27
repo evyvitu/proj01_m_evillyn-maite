@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+    background: url('../imagens/fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background: #ffd700;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+.destaque {
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: 2px solid #ffd700;
+}
+
+footer {
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    iframe, video {
+        width: 100%;
+        height: auto;
+    }
+
+    .destaque {
+        width: 80%;
+    }
+}
