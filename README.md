@@ -1,7 +1,7 @@
 # Projeto Web: Snoopy e Woodstock
 
 ## Descrição
-Este é um projeto de programação web desenvolvido por Evillyn e Mait. O projeto consiste em um site interativo com multimídia, incluindo imagens, vídeos e áudios.
+Este é um projeto de programação web desenvolvido por Evillyn e Maitê. O projeto consiste em um site interativo com multimídia, incluindo imagens, vídeos e áudios.
 
 ## Tecnologias Utilizadas
 - HTML
